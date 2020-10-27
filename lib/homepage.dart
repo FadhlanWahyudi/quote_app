@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quote_app/health.dart';
+import 'package:quote_app/Healty/health.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -33,23 +33,7 @@ class _HomePageState extends State<HomePage> {
                       } ),
                 )
             ),
-            Expanded(
-                child: Padding(
-                  padding: EdgeInsets.all(25.0),
-                  child: FlatButton(
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(25.0),
-                          side: BorderSide(color: Colors.black)),
-                      color: Colors.amber,
-                      child: Text(
-                        'Sport',
-                        style: TextStyle(fontSize: 20.0,color: Colors.white,),
-                      ),
-                      onPressed: (){
 
-                      } ),
-                )
-            ),
           ],
         )
       ],
